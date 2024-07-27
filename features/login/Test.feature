@@ -1,5 +1,6 @@
 Feature: Launch
 
+@launch
 Scenario: Open Website
 
     Given I open Playwright website

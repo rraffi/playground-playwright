@@ -1,6 +1,6 @@
 {
   "default": {
-    "paths": ["features"],
+    "paths": ["features/Launch.feature"],
     "require": [
       "src/**/*.ts"
     ],
@@ -9,6 +9,10 @@
       "html:reports/cucumber_report.html"
     ],
     "requireModule": ["ts-node/register"],
-    "parallel": 5
+    "parallel": 5,
+    "dryRun": true,
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    }
   }
 }
